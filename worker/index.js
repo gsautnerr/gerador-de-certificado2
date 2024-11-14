@@ -82,10 +82,10 @@ const rabbitHost = process.env.RABBITMQ_HOST || "rabbitmq";
         } catch (error) {
           console.error("Erro ao processar mensagem:", error);
           // Implementar lógica para lidar com erros
-          channel.nack(data); // Reenvia a mensagem para a fila
+          channel.nack(data); 
         }
       },
-      { noAck: false } // Define noAck como false para controlar manualmente o acknowledge
+      { noAck: false } 
     );
   } catch (error) {
     console.error("Erro ao ler mensagem da fila:", error);
