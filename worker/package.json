@@ -1,0 +1,25 @@
+{
+  "name": "consumidor",
+  "version": "1.0.0",
+  "description": "Consimidor da fila",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sautners",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.4",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.1",
+    "fs": "^0.0.1-security",
+    "handlebars": "^4.7.8",
+    "mysql2": "^3.11.3",
+    "path": "^0.12.7",
+    "puppeteer": "^23.7.1",
+    "puppeteer-core": "^23.7.1",
+    "puppeteer-html-pdf": "^4.0.8",
+    "redis": "^4.7.0",
+    "uuid": "^11.0.2"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "produtor",
+  "version": "1.0.0",
+  "description": "Produtor da fila",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sautners",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.4",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "install": "^0.13.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.11.3",
+    "npm": "^10.9.0",
+    "redis": "^4.7.0",
+    "uuid": "^11.0.2"
+  }
+}
